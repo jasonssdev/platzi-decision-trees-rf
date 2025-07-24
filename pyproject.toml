@@ -21,6 +21,7 @@ dependencies = [
     "pathlib",
     "scikit-learn",
     "imbalanced-learn",
+    "category_encoders"
 ]
 
 [build-system]

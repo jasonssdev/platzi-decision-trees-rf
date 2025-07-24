@@ -1,0 +1,28 @@
+name: ml-py3.12
+channels:
+  - conda-forge
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - conda-forge::openai
+  - conda-forge::pdfplumber
+  - ipywidgets
+  - jupyter_client[version='<8']
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - numpy
+  - openpyxl
+  - pandas
+  - pathlib
+  - python-dotenv==1.1.0
+  - python=3.12
+  - pyzmq[version='<25']
+  - scikit-learn
+  - seaborn
+  - statsmodels
+  - xlrd
+  - imbalanced-learn
+  - category_encoders
+prefix: /opt/anaconda3/envs/ml-py3.12
